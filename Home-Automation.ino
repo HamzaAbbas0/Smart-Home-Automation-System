@@ -1,9 +1,9 @@
 #include <ArduinoJson.h>
 
-#include <ESP8266WiFi.h>                                                    // esp8266 library                                             // firebase library
+#include <ESP8266WiFi.h>                                                                                               
 #include <FirebaseESP8266.h>
-#define FIREBASE_HOST "homeautomation-109af-default-rtdb.firebaseio.com"      //fire base host key
-#define FIREBASE_AUTH "AIzaSyBOFX0OFBNfFUyF8iv80rNLHKSaR6b-DFc"               // fire base web key ,project-setting,General
+#define FIREBASE_HOST "homeautomation-109af-default-rtdb.firebaseio.com"      
+#define FIREBASE_AUTH "AIzaSyBOFX0OFBNfFUyF8iv80rNLHKSaR6b-DFc"               
 #define WIFI_SSID "wifi-name"
 #define WIFI_PASSWORD "wifi-passoward"
 #define USER_EMAIL "user email"
